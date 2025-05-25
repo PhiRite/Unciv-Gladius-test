@@ -14,7 +14,6 @@
                     "Comment [Deals 1 base dmg]",
 		            "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>",
                     //model logics - five models
-                    "[-20]% Strength <when defending> <for units without [4-Model]>", "[-20]% Strength <when defending> <for units without [3-Model]>", "[-20]% Strength <when defending> <for units without [2-Model]>", "[-20]% Strength <when defending> <for units without [5-Model]>",
                     "[This Unit] gains the [5-Model] promotion <when above [80] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [5-Model] promotion <when below [81] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [4-Model] promotion <when above [60] HP> <upon entering a [All] tile> <hidden from users>",
