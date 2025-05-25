@@ -1,16 +1,16 @@
 [
     {
         "name": "Tactical Space Marine",
-        "unitType": "Infantry",
+        "unitType": "Ranged",
         "cost": 1,
-        "hurryCostModifier": 100,
+        "hurryCostModifier": 1,
         "movement": 3,
         "strength": 1,
         "rangedstrength": 1,
         "range": 1,
-        "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [40] [Requisition]",
+        "uniques": ["Cannot be purchased",
                     "[This Unit] gains the [BoltGun] promotion", "Comment [Has 8 Armor, Each point gives 8% increased defense]",
-                    "[+64]% Strength <when defending> <hidden from users>", "[-99]% Strength <when attacking>"
+                    "[+64]% Strength <when defending> <hidden from users>", "[-99]% Strength <when attacking>",
                     "Comment [Deals 1 base dmg]",
 		            "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>",
                     //model logics - five models
@@ -34,8 +34,8 @@
 		"strength": 1,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
-		"promotions": ["Ignore terrain cost","[-99]% Strength <when attacking>",],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects","[-99]% Strength <when attacking>"],
+		"promotions": ["Ignore terrain cost",],
 		"attackSound": "nonmetalhit"
 	},
 ]
