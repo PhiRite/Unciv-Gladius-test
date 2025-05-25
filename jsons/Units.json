@@ -23,8 +23,8 @@
                     "[This Unit] loses the [3-Model] promotion <when below [41] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [2-Model] promotion <when above [20] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [2-Model] promotion <when below [21] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
-                    "[This Unit] gains the [1-Model] promotion <when below [21] HP> <upon losing at least [1] HP in a single attack> <hidden from users>",
-                    "[This Unit] loses the [1-Model] promotion <when above [20] HP> <upon entering a [All] tile> <upon entering a [All] tile> <hidden from users>",],
+                    "[This Unit] gains the [1-Model] promotion <when above [0] HP> <upon losing at least [1] HP in a single attack> <hidden from users>",
+                    "[This Unit] loses the [1-Model] promotion <when below [1] HP> <upon entering a [All] tile> <upon entering a [All] tile> <hidden from users>",],
         "attackSound": "shot"
     },
     {
