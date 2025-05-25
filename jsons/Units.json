@@ -11,7 +11,7 @@
         "uniques": ["Cannot be purchased",
                     "Comment [Has 8 Armor, Each point gives 8% increased defense]",
 			        "[-85]% Strength <when defending> <hidden from users>",
-                    "[+350]% Strength <when defending> <hidden from users>",
+                    "[+400]% Strength <when defending> <hidden from users>",
                     "Comment [Deals 1 base dmg]",
 		            "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>",
                     //model logics - five models
