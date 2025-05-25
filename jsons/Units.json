@@ -52,4 +52,17 @@
 			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
+	{
+		"name": "Brute",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 1,
+		"cost": 20,
+		"obsoleteTech": "Metal Casting",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "[-99]% Strength <when attacking>"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
 ]
