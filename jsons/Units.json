@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Tactical Space Marine",
+        "unitType": "Infantry",
+        "cost": 1,
+        "hurryCostModifier": 100,
+        "movement": 3,
+        "strength": 1,
+        "rangedstrength": 1,
+        "range": 1,
+        "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [40] [Requisition]",
+                    "[This Unit] gains the [BoltGun] promotion", "Comment [Has 8 Armor, Each point gives 8% increased defense]",
+                    "[+64]% Strength <when defending> <hidden from users>", "[-99]% Strength <when attacking>"
+                    "Comment [Deals 1 base dmg]",
+		            "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>",
+                    //model logics - five models
+                    "[-20]% Strength <when defending> <for units with [4-Model]>", "[-40]% Strength <when defending> <for units with [3-Model]>", "[-60]% Strength <when defending> <for units with [2-Model]>", "[-80]% Strength <when defending> <for units with [1-Model]>",
+                    "[This Unit] gains the [5-Model] promotion <when above [80] HP> <upon entering a [All] tile> <hidden from users>",
+                    "[This Unit] loses the [5-Model] promotion <when below [81] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
+                    "[This Unit] gains the [4-Model] promotion <when above [60] HP> <upon entering a [All] tile> <hidden from users>",
+                    "[This Unit] loses the [4-Model] promotion <when below [61] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
+                    "[This Unit] gains the [3-Model] promotion <when above [40] HP> <upon entering a [All] tile> <hidden from users>",
+                    "[This Unit] loses the [3-Model] promotion <when below [41] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
+                    "[This Unit] gains the [2-Model] promotion <when above [20] HP> <upon entering a [All] tile> <hidden from users>",
+                    "[This Unit] loses the [2-Model] promotion <when below [21] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
+                    "[This Unit] gains the [1-Model] promotion <when below [21] HP> <upon losing at least [1] HP in a single attack> <hidden from users>",
+                    "[This Unit] loses the [1-Model] promotion <when above [20] HP> <upon entering a [All] tile> <upon entering a [All] tile> <hidden from users>",],
+        "attackSound": "shot"
+    },
+    {
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 1,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
+		"promotions": ["Ignore terrain cost","[-99]% Strength <when attacking>",],
+		"attackSound": "nonmetalhit"
+	},
+]
